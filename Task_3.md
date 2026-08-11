@@ -2,7 +2,8 @@
 
 ## Схема работы
 
-```[Мобильное приложение]  <-- Push-уведомление -->  [Firebase Cloud Messaging (FCM) / Apple Push Notification Service (APNs)]
+```
+[Мобильное приложение]  <-- Push-уведомление -->  [Firebase Cloud Messaging (FCM) / Apple Push Notification Service (APNs)]
          ^                                                                          |
          |                                                                          |
          | Регистрация токена                                                  Отправка push-уведомления
