@@ -1,0 +1,44 @@
+## Part 1. Написать пример REST API запроса, который будет вызываться при переходе пользователя на данный экран.
+
+**GET** `/api/v1/partner-stores`
+
+## Part 2. Привести пример ответа этого REST API в соответствии с макетом. Формат - JSON. Учесть, что при клике на плашку магазина должен осуществляться переход по ссылке на внешний ресурс.
+
+```json
+{
+  "success": true,
+  "data": [
+    {
+      "id": "partner_001",
+      "name": "METRO",
+      "logo_url": "https://cdn.petrushka.ru/images/partner_metro_logo.png",
+      "delivery_type": "Ближайшая доставка",
+      "delivery_time": "сегодня 21:00-23:00",
+      "external_link": "https://www.metro-cc.ru"
+    },
+    {
+      "id": "partner_002",
+      "name": "Ашан",
+      "logo_url": "https://cdn.petrushka.ru/images/partner_auchan_logo.png",
+      "delivery_type": "Ближайшая доставка",
+      "delivery_time": "сегодня 18:00-20:00",
+      "external_link": "https://www.auchan.ru"
+    },
+    {
+      "id": "partner_003",
+      "name": "Вкусвилл",
+      "logo_url": "https://cdn.petrushka.ru/images/partner_vkusvill_logo.png",
+      "delivery_type": "Быстрая доставка",
+      "delivery_time": "от 20 до 60 минут",
+      "external_link": "https://www.vkusvill.ru"
+    },
+    {
+      "id": "partner_004",
+      "name": "Виктория",
+      "logo_url": "https://cdn.petrushka.ru/images/partner_victoria_logo.png",
+      "delivery_type": "Ближайшая доставка",
+      "delivery_time": "сегодня 17:00-19:00",
+      "external_link": "https://www.victoria-group.ru"
+    }
+  ]
+}
